@@ -63,6 +63,18 @@ Crie/edite `~/.config/nixpkgs/config.nix` com o conteúdo:
 | Ubuntu       | `sudo apt install direnv`         |
 | Nix (Flakes) | `nix profile add nixpkgs#direnv`  |
 
+Após instalar, adicione ao `~/.bashrc`:
+
+```sh
+eval "$(direnv hook bash)"
+```
+
+Recarregue o shell:
+
+```sh
+source ~/.bashrc
+```
+
 ## Comandos
 
 | Arquivo     | Comando        |
