@@ -16,3 +16,19 @@ Comandos com zsh:
 
 Verificar se esta no shell do nix:
 echo $IN_NIX_SHELL -> impure
+
+URLS:
+Pesquisar Pacotes:
+https://search.nixos.org/packages
+
+Repos para uso:
+https://github.com/NixOS/nixpkgs
+github:nixos/nixpkgs/nixos-unstable
+github:nixos/nixpkgs/nixos-25.11 (stable)
+
+https://flakehub.com/flakes
+https://flakehub.com/flake/NixOS/nixpkgs?view=usage
+
+Meus Repos:
+https://github.com/joaopfusco/nix-config
+https://github.com/joaopfusco/nix-course
