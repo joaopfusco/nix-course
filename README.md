@@ -31,7 +31,7 @@ sudo systemctl restart nix-daemon
 nix flake --help
 ```
 
-### Habilitar Pacotes Unfree (não vamos precisar)
+### Habilitar Pacotes Unfree
 
 Por padrão o Nix bloqueia pacotes com licenças não livres (ex: Discord, Slack, VS Code).
 
@@ -55,12 +55,13 @@ Crie/edite `~/.config/nixpkgs/config.nix` com o conteúdo:
 { allowUnfree = true; }
 ```
 
-## Instalação do direnv (opcional)
+## Instalação do direnv
 
-| Distro  | Comando                    |
-|---------|----------------------------|
-| Fedora  | `sudo dnf install direnv`  |
-| Ubuntu  | `sudo apt install direnv`  |
+| Distro       | Comando                           |
+|--------------|-----------------------------------|
+| Fedora       | `sudo dnf install direnv`         |
+| Ubuntu       | `sudo apt install direnv`         |
+| Nix (Flakes) | `nix profile add nixpkgs#direnv`  |
 
 ## Comandos
 
